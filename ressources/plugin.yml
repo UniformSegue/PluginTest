@@ -1,0 +1,73 @@
+name: PluginTest
+author: UniformSegue
+version: 0.1
+api-version: 1.20
+description: Un plugin de teste pour apprendre
+main: fr.uniform_segue.plugintest.Main
+commands:
+  test:
+    description: Commande de Teste
+    permission: op
+    aliases: [t, te, tst]
+  spawn:
+    description: commande tp spawn
+    aliases: [sp]
+  gm:
+    description: raccourci gamemode
+    permission: op
+  gmui:
+    description: ui pour changer gamemode
+    permission: op
+
+  info:
+    description: donne des information sur un joueur
+    aliases: [i, if]
+    permission: op
+
+  admin:
+    description: mets le mode admin
+    aliases: a
+    permission: op
+  hat:
+    aliases: h
+  color:
+    description: donne le code couleur mc
+    aliases: c
+
+  pendu:
+
+    description: lance un evenement pendu
+
+  vanish:
+
+    description: active l'invisibiliter (admin)
+    permission: op
+  itemcustom:
+      description: cree un item personnaliser
+      permission: op
+      aliases: ic
+  backpack:
+      description: ouvre un sac à dos
+      aliases: bp
+  seebackpack:
+      description: permette d'ouvrir le backpack d'un joueur
+      aliases: [sbp,seebp]
+  chest:
+    description: creer un coffre aleatoire
+    aliases: c
+    permission: op
+  restorechest:
+    description: restore les coffres aleatoires
+    permission: op
+    aliases: rc
+  starttp:
+    description: set et tp les joueur à la base pour le mini jeu
+    aliase: st
+    permission: op
+
+  startgame:
+    description: lance le jeu
+    aliases: sg
+    permission: op
+  class:
+    description: open class selector
